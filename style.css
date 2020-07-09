@@ -1,16 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600');
 @import url('fontawesome-all.min.css');
 
-/* jet-black #444548 */
 body {
   font-family: 'Fjalla One', sans-serif;
   margin: 0px;
-  /* background-image: url('images/cool_giiffy.gif'); */
-  /* background-image: url('images/deluxoOG.gif'); */
   background-color: black;
   height: 100%;
   background-position: center;
-  /* background-repeat: no-repeat; */
   background-size: cover;
 }
 
@@ -56,7 +52,6 @@ body {
   color: black;
 }
 
-/* LAST THINGS ADDED */
 .active-nav-link {
   border-bottom: 1px solid darkgrey;
 }
@@ -65,8 +60,6 @@ body {
   color: lightgrey !important;
 }
 
-/* nav styles end*/
-/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
 /* portfolio styles  grid-spacing*/
 .portfolio-items-wrapper {
   display: grid;
@@ -80,8 +73,6 @@ body {
     'k  o p f'
     'j  i  h  g';
 
-  /* grid-template-columns: 1fr 1fr 1fr; */
-  /* grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); */
   grid-template-rows: repeat(4, 25%);
   grid-template-columns: 240px auto auto 240px;
   --stagger-delay: 100ms;
@@ -113,11 +104,7 @@ body {
   background-repeat: no-repeat;
   animation: cardEntrance 700ms ease-out;
   animation-fill-mode: backwards;
-  /* testing */
   border-radius: 15px 50px 30px 5px;
-  /* padding: 20px; */
-  /* width: 200px; */
-  /* height: 150px; */
 }
 
 .portfolio-img-background:nth-child(1) {
@@ -168,17 +155,10 @@ body {
   grid-area: l;
   animation-delay: calc(12 * var(--stagger-delay));
 }
-/* .portfolio-img-background:last-child {
-  grid-area: 🌟;
-  animation-delay: calc(13 * var(--stagger-delay));
-} */
 
 .portfolio-img-background:hover {
   transform: translateY(-3px) scale(1.1);
 }
-
-/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
-/* hold images end */
 
 .img-text-wrapper {
   position: absolute;
@@ -194,8 +174,6 @@ body {
 
 .logo-wrapper img {
   position: absolute;
-  /* width: 50%;
-  margin-bottom: 20px; */
   width: 50%;
   height: 50px;
   bottom: 0px;
@@ -204,7 +182,6 @@ body {
   margin-left: -150px;
 }
 
-/*  */
 .img-text-wrapper .subtitle {
   transition: 1s;
   font-weight: 600;
@@ -216,14 +193,12 @@ body {
   color: lightseagreen;
 }
 
-/* 1.10 */
 .img-darken {
   transition: 1s;
   filter: brightness(10%);
 }
 
 /* ABOUT PAGE*/
-
 .two-column-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -242,3 +217,5 @@ body {
 }
 
 /* footer */
+
+/* this is the next section to work on, Create footer Branch*/
